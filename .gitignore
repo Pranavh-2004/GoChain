@@ -1,0 +1,43 @@
+# Ignore Go binary files
+*.exe
+*.exe~
+*.out
+*.a
+*.so
+
+# Ignore Go modules
+/vendor/
+
+# Ignore dependency directories and files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignore build artifacts
+/build/
+bin/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables files (e.g., secrets)
+.env
+
+# Ignore IDE configuration files
+.idea/
+.vscode/
+
+# Ignore logs
+*.log
+
+# Ignore database files (e.g., for BoltDB or SQLite)
+blockchain.db
+
+# Ignore test coverage files
+*.out
+*.coverage
+
+# Ignore temporary files
+*.tmp
+*.swp
