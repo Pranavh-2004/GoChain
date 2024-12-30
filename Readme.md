@@ -1,5 +1,3 @@
-import { CodeBlock } from 'react-code-blocks';
-
 # GoChain
 
 **GoChain** is a lightweight blockchain implementation written in Go, designed for learning and experimentation. This project demonstrates core blockchain concepts like block creation, proof-of-work, and data persistence using BoltDB.
@@ -101,7 +99,6 @@ Data: Second Block
 Hash: 8f2ad881b9e8d6c...ee
 PrevHash: c5e4ac9189c8a8d...fd
 Nonce: 68
-
 ```
 
 ## License
