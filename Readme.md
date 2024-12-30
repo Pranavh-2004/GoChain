@@ -64,13 +64,17 @@ GoChain/
 
 ### Running the Test Application
 
-<CodeBlock text={`cd cmd/test_app
-go run main.go`} language="bash" />
+```bash
+    cd cmd/test_app
+    go run main.go
+```
 
 ### Running the CLI Application
 
-<CodeBlock text={`cd cmd/user_cli_app
-go run main.go`} language="bash" />
+```bash
+    cd cmd/user_cli_app
+    go run main.go
+```
 
 Follow the prompts to add data to the blockchain or view the chain.
 
@@ -78,7 +82,8 @@ Follow the prompts to add data to the blockchain or view the chain.
 
 When running the CLI app:
 
-<CodeBlock text={`Enter data for the block (or type 'exit' to stop): First Block
+```
+Enter data for the block (or type 'exit' to stop): First Block
 Enter data for the block (or type 'exit' to stop): Second Block
 Enter data for the block (or type 'exit' to stop): exit
 
@@ -95,7 +100,9 @@ Nonce: 45
 Data: Second Block
 Hash: 8f2ad881b9e8d6c...ee
 PrevHash: c5e4ac9189c8a8d...fd
-Nonce: 68`} language="plaintext" />
+Nonce: 68
+
+```
 
 ## License
 
